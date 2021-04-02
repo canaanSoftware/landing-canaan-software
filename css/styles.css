@@ -22,11 +22,11 @@ header {
 .logo {
   color: azure;
   padding-top: 180px;
-  padding-left: 50px;
+  padding-left: 10px;
 }
 
 .logo > img {
-  width: 150px;
+  width: 250px;
 }
 
 .menu {
@@ -61,8 +61,8 @@ header {
 }
 
 .main-section h2{
-  letter-spacing: 8px;
-  font-size: 20px;
+  letter-spacing: 20px;
+  font-size: 15px;
 }
 
 .title {
