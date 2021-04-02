@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display+SC&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  background: none;
 }
 
 body {
@@ -8,8 +11,9 @@ body {
 }
 
 header {
+  font-family: "Lato";
   display: flex;
-  height: 150px;
+  height: 80px;
   background-color: #34304b;
   justify-content: space-between;
   align-items: center;
@@ -17,18 +21,17 @@ header {
 
 .logo {
   color: azure;
-  padding-top: 100px;
+  padding-top: 180px;
   padding-left: 50px;
 }
 
 .logo > img {
   width: 150px;
-  height: 180px;
 }
 
 .menu {
   text-align: right;
-  font-size: 20px;
+  font-size: 14px;
   padding-right: 20px;
   color: grey;
   font-weight: 100;
@@ -39,24 +42,32 @@ header {
   color: white;
   margin-right: 10px;
   margin-left: 10px;
+  padding: 5px;
 }
 
 .menu > a:hover {
-  background-color: grey;
-  padding: 15px;
+  background-color: #9b93be;
+  padding: 5px;
 }
 
 .main-section {
-  background-color: #34304b;
+  background-color: #342f4b;
   padding-bottom: 30px;
 }
 
-.container {
-  background-color: #f1f2f3;
+.main-section h1{
+  font-family: "Playfair Display SC";
+  font-size: 80px;
 }
+
+.main-section h2{
+  letter-spacing: 8px;
+  font-size: 20px;
+}
+
 .title {
   text-align: center;
-  color: azure;
+  color: white;
 }
 
 .row {
@@ -78,10 +89,18 @@ header {
 
 .in-construction {
   font-size: 75px;
+  letter-spacing: 8px;
+  color: #342f4b;
+  padding-top: 20px;
+}
+
+.ready-soon{
+  font-size: 15px;
+  letter-spacing: 6px;
+  color: #342f4b;
   padding-top: 20px;
 }
 
 .loading-gif {
-  width: 250px;
-  height: 230px;
+  width: 800px;
 }
