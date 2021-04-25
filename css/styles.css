@@ -22,7 +22,7 @@ header {
 /*Middle section*/
 .backgrd{
   position: relative;
-  background: url(../images/workplace.jpg);
+  background: url(../images/cork-board-people.jpg);
   background-size: cover;
   height: 100vh;
   clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 80%);
@@ -31,8 +31,8 @@ header {
 .backgrd h2{
   font-size: 3rem;
   font-family: "Lato", sans-serif;
-  color: #FCB315;
-  text-shadow: -1px 0 #8D8977, 0 0.5px #8D8977, 0.5px 0 #8D8977, 0 -1px #8D8977;
+  color: #18ABB5;
+  text-shadow: -1px 0 #0a3b0c, 0 0.5px #0a3b0c, 0.5px 0 #0a3b0c, 0 -1px #0a3b0c;
 }
 
 .middle-text{
