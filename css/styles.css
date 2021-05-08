@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 * {
   margin: 0;
@@ -8,99 +9,87 @@
 
 body {
   font-family: "Lato", sans-serif;
+  background: #F0F8FF;
 }
 
+/*Header*/
 header {
-  font-family: "Lato";
-  display: flex;
-  height: 80px;
-  background-color: #34304b;
-  justify-content: space-between;
-  align-items: center;
+  height: 100px;
+  background-color: #f24150;
+}
+/*End header*/
+
+/*Middle section*/
+.backgrd{
+  position: relative;
+  background: url(../images/cork-board-people.jpg);
+  background-size: cover;
+  height: 100vh;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 80%);
 }
 
-.logo {
-  color: azure;
-  padding-top: 180px;
-  padding-left: 10px;
+.backgrd h2{
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  color: #18ABB5;
+  text-shadow: -1px 0 #0a3b0c, 0 0.5px #0a3b0c, 0.5px 0 #0a3b0c, 0 -1px #0a3b0c;
 }
 
-.logo > img {
+.middle-text{
+  color: #000;;
+  font-size: 1.2rem;
+  padding-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.backgrd img{
   width: 250px;
 }
 
-.menu {
-  text-align: right;
-  font-size: 14px;
-  padding-right: 20px;
-  color: grey;
-  font-weight: 100;
+.tomato{
+  background: #EA1D3D;
 }
 
-.menu > a {
-  text-decoration: none;
-  color: white;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding: 5px;
+.bolder{
+  font-weight: bolder;
 }
 
-.menu > a:hover {
-  background-color: #9b93be;
-  padding: 5px;
+.rebecca{
+  background: #178FA5;
 }
 
-.main-section {
-  background-color: #342f4b;
-  padding-bottom: 30px;
+.royal{
+  background: #F79422;
 }
 
-.main-section h1{
-  font-family: "Playfair Display SC";
-  font-size: 80px;
+.dev-icon{
+  font-size: 4rem;
+}
+/*End middle section*/
+
+/*Portfolio section*/
+.portfolio {
+  background-color: aliceblue;
 }
 
-.main-section h2{
-  letter-spacing: 20px;
-  font-size: 15px;
+.card {
+  overflow: hidden !important;
 }
 
-.title {
-  text-align: center;
-  color: white;
+.card > img:hover {
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
 }
+/*End portfolio section*/
 
-.row {
-  text-align: center;
+/*Footer*/
+footer {
+  height: 300px;
+  background-color: #3c1e5d;
+  color: azure;
 }
-
-.row p {
-  padding-top: 20px;
-}
-
-.span-wwa {
-  color: black;
-  font-size: 45px;
-}
-
-.hidden {
-  display: none;
-}
-
-.in-construction {
-  font-size: 75px;
-  letter-spacing: 8px;
-  color: #342f4b;
-  padding-top: 20px;
-}
-
-.ready-soon{
-  font-size: 15px;
-  letter-spacing: 6px;
-  color: #342f4b;
-  padding-top: 20px;
-}
-
-.loading-gif {
-  width: 800px;
-}
+/*End footer*/
