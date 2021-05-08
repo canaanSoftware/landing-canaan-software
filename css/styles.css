@@ -23,7 +23,7 @@ header {
 .backgrd{
   position: relative;
   background: url(../images/startupMeeting2.jpg);
-  background-size: auto;
+  background-size: cover;
   height: 100vh;
   clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 80%);
 }
