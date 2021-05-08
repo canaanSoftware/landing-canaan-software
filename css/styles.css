@@ -22,8 +22,8 @@ header {
 /*Middle section*/
 .backgrd{
   position: relative;
-  background: url(../images/cork-board-people.jpg);
-  background-size: cover;
+  background: url(../images/startupMeeting2.jpg);
+  background-size: auto;
   height: 100vh;
   clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 80%);
 }
@@ -31,7 +31,7 @@ header {
 .backgrd h2{
   font-size: 3rem;
   font-family: "Lato", sans-serif;
-  color: #18ABB5;
+  color: #eeb121; /*18ABB5*/
   text-shadow: -1px 0 #0a3b0c, 0 0.5px #0a3b0c, 0.5px 0 #0a3b0c, 0 -1px #0a3b0c;
 }
 
