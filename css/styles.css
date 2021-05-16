@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display+SC&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
 
 * {
   margin: 0;
@@ -10,18 +10,27 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background: #F0F8FF;
+  background: #f0f8ff;
 }
 
 /*Header*/
 header {
-  height: 100px;
-  background-color: #f24150;
+  margin-bottom: 40px;
+}
+
+nav {
+  height: 60px;
+  background-color: #3c1e5d;
+}
+
+#navbarNav {
+  width: 100%;
+  background-color: #3c1e5d;
 }
 /*End header*/
 
 /*Middle section*/
-.backgrd{
+.backgrd {
   position: relative;
   background: url(../images/startupMeeting2.jpg);
   background-size: cover;
@@ -29,44 +38,44 @@ header {
   clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 80%);
 }
 
-.backgrd h2{
+.backgrd h2 {
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
-  color: #59CAEA; /*18ABB5  --  eeb121*/
-  text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;;
+  color: #59caea; /*18ABB5  --  eeb121*/
+  text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
   /*text-shadow: -1px 0 #0a3b0c, 0 0.75px #0a3b0c, 0.75px 0 #0a3b0c, 0 -1px #0a3b0c;*/
 }
 
-.middle-text{
-  color: #000;;
+.middle-text {
+  color: #000;
   font-size: 1.2rem;
   padding-top: 3rem;
   padding-left: 6rem;
   padding-right: 6rem;
 }
 
-.backgrd img{
+.backgrd img {
   width: 250px;
 }
 
-.tomato{
-  background: #EA1D3D;
+.tomato {
+  background: #ea1d3d;
 }
 
-.bolder{
+.bolder {
   font-weight: bolder;
 }
 
-.rebecca{
-  background: #178FA5;
+.rebecca {
+  background: #178fa5;
 }
 
-.royal{
-  background: #F79422;
+.royal {
+  background: #f79422;
 }
 
-.dev-icon{
+.dev-icon {
   font-size: 4rem;
 }
 /*End middle section*/
