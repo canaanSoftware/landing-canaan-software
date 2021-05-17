@@ -95,4 +95,19 @@ footer {
   background-color: #3c1e5d;
   color: azure;
 }
+
+.footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer ul li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.footer p a{
+	color: white;
+	text-decoration: none;
+}
 /*End footer*/
