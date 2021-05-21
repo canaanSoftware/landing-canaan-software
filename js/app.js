@@ -1,20 +1,23 @@
-$(document).ready(function () {
-  $("#toTopBtn").hide();
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 20) {
-      $("#toTopBtn").fadeIn();
-    } else {
-      $("#toTopBtn").fadeOut();
-    }
-  });
+//Get the button
+let backToTopBtn = document.getElementById("btn-back-to-top");
 
-  $("#toTopBtn").click(function () {
-    $("html, body").animate(
-      {
-        scrollTop: 0
-      },
-      1000
-    );
-    return false;
-  });
-});
+// When the user scrolls down 20px from the top of the document, show the button
+scrollFunction = () => {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backToTopBtn.style.display = "block";
+  } else {
+    backToTopBtn.style.display = "none";
+  }
+};
+
+window.onscroll = () => {
+  scrollFunction();
+};
+
+// When the user clicks on the button, scroll to the top of the document
+backToTop = () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+};
+
+backToTopBtn.addEventListener("click", backToTop);
