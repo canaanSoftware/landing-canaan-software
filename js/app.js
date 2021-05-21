@@ -1,16 +1,20 @@
-$(document).ready(function() {
-    $(window).scroll(function() {
+$(document).ready(function () {
+  $("#toTopBtn").hide();
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 20) {
-    $('#toTopBtn').fadeIn();
+      $("#toTopBtn").fadeIn();
     } else {
-    $('#toTopBtn').fadeOut();
+      $("#toTopBtn").fadeOut();
     }
-    });
-    
-    $('#toTopBtn').click(function() {
-    $("html, body").animate({
-    scrollTop: 0
-    }, 1000);
+  });
+
+  $("#toTopBtn").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0
+      },
+      1000
+    );
     return false;
-    });
-    });
+  });
+});
