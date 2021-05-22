@@ -32,8 +32,8 @@ nav {
 /*Middle section*/
 .backgrd {
   position: relative;
-  background: url(../images/startupMeeting2.jpg);
-  background-color: yellow;
+  background: url(../images/cork-board-people.jpg);
+  background-color: #9e5be6;
   background-size: cover;
   height: 100vh;
   clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 80%);
