@@ -1,3 +1,10 @@
+// Close the navbar on click outside
+$(() => {
+  $(document).click((event) => {
+    $(".navbar-collapse").collapse("hide");
+  });
+});
+
 //Get the button
 let backToTopBtn = document.getElementById("btn-back-to-top");
 
