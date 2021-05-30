@@ -68,7 +68,7 @@ nav {
 }
 
 .backgrd h2 {
-  font-size: 2.9rem;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   color: #59caea;
@@ -84,7 +84,7 @@ nav {
 }
 
 .backgrd img {
-  width: 250px;
+  width: 200px;
 }
 
 .tomato {
@@ -105,6 +105,21 @@ nav {
 
 .dev-icon {
   font-size: 4rem;
+}
+
+@media (max-width: 1000px) {
+  .backgrd {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .backgrd {
+    height: 95vh;
+  }
+  .backgrd h2 {
+    font-size: 2.5rem;
+  }
 }
 /*End middle section*/
 
